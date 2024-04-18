@@ -12,11 +12,11 @@ Copyright: 2023 ©MdRasen
 var typed = new Typed(".typing", {
   strings: [
     "",
-    "Web",
-    "Web Designer",
-    "Web Developer",
-    "Graphic Designer",
-    "Content Creator",
+    "FrontEnd dev",
+    "BackEnd dev",
+    "Web designer",
+    "logo Designer",
+    "video editor",
   ],
   typeSpeed: 100,
   BackSpeed: 60,

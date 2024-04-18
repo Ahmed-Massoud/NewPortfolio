@@ -199,6 +199,7 @@ ul {
 }
 
 .aside .logo a {
+  font-family: kawit;
   color: var(--text-black-700);
   font-weight: 700;
   padding: 15px 20px;
@@ -208,7 +209,7 @@ ul {
 }
 
 .aside .logo a span {
-  font-family: "kawit", cursive;
+  
   font-size: 40px;
 }
 

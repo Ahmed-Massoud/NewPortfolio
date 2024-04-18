@@ -876,7 +876,7 @@ h3.my-profession {
 /* Device Responsive Start */
 @media (max-width: 1190px) {
   .aside {
-    left: -270px;
+    left: -320px;
   }
 
   .aside.open {

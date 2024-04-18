@@ -9,7 +9,10 @@ Copyright: 2023 ©MdRasen
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
+@font-face {
+  font-family: kawit;
+  src: url(../Kawit.ttf);
+}
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -205,7 +208,7 @@ ul {
 }
 
 .aside .logo a span {
-  font-family: "Clicker Script", cursive;
+  font-family: "kawit", cursive;
   font-size: 40px;
 }
 

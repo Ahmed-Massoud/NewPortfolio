@@ -67,6 +67,7 @@ ul {
   overflow-x: hidden;
   overflow-y: auto;
   transition: all 0.3s ease;
+  width: calc(100vw - 320px);
 }
 
 .section.back-section {

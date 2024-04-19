@@ -603,7 +603,7 @@ h3.my-profession {
 /* Service Start */
 .service .container {
   padding-bottom: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .service .service-item {
@@ -669,6 +669,7 @@ h3.my-profession {
 /* Portfolio Start */
 .portfolio .container {
   padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .portfolio .portfolio-heading {
@@ -705,6 +706,7 @@ h3.my-profession {
 /* Blog Start */
 .blog .container {
   padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .blog .blog-heading {
@@ -878,12 +880,13 @@ h3.my-profession {
 .contact .contact-form .btn {
   height: 50px;
   padding: 0 50px;
+  margin-bottom: 40px;
 }
 
 /* Contact End */
 
 /* Device Responsive Start */
-@media (max-width: 1190px) {
+@media (max-width: 1250px) {
   .aside {
     left: -320px;
   }

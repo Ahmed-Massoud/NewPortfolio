@@ -28,8 +28,14 @@ Copyright: 2023 ©MdRasen
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
+
 }
 
+.info-item a span , .timeline-text a{
+  text-decoration: underline;
+  font-weight: bold;
+  color:var(--text-black-700)
+}
 body {
   line-height: 1.5;
   font-size: 16px;
@@ -677,7 +683,12 @@ h3.my-profession {
   max-width: 100%;
   margin-bottom: 40px;
 }
-
+.portfolio-img{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    height: 100%
+  }
 .portfolio .portfolio-heading h2 {
   color: var(--text-black-900);
   font-weight: 500;
@@ -694,11 +705,13 @@ h3.my-profession {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  height: 250;
 }
 
 .portfolio .portfolio-item-innner .portfolio-img img {
-  width: 100%;
   display: block;
+  height: 100%;
+  width: auto;
 }
 
 /* Portfolio End */

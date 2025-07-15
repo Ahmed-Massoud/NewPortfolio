@@ -31,7 +31,7 @@ Copyright: 2023 ©MdRasen
 
 }
 
-.info-item a span , .timeline-text a{
+.info-item a span , .timeline-text a , .contact-info-item a{
   text-decoration: underline;
   font-weight: bold;
   color:var(--text-black-700)

@@ -697,6 +697,7 @@ h3.my-profession {
 .portfolio .portfolio-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
+  max-height: 250px;
   margin-bottom: 30px;
 }
 
@@ -705,13 +706,13 @@ h3.my-profession {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  height: 250;
+  height: 100%;
 }
 
 .portfolio .portfolio-item-innner .portfolio-img img {
+      max-width: 100%;
   display: block;
-  height: 100%;
-  width: auto;
+    height: 100%;
 }
 
 /* Portfolio End */

@@ -3,7 +3,7 @@ name: 🚀 Deploy to InfinityFree
 on:
   push:
     branches:
-      - main 
+      - main  # لو الفرع الرئيسي اسمه master اكتبه هنا
 
 jobs:
   ftp-deploy:
@@ -16,6 +16,6 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftpupload.net
-          username: epiz_34278868
-          password: rvU6NBt1Bkp
-          server-dir: /htdocs/
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /htdocs/   # لو حاطط الموقع في مجلد تاني غيّره هنا

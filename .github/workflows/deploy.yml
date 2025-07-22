@@ -1,0 +1,21 @@
+name: 🚀 Deploy to InfinityFree
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftpupload.net
+          username: epiz_34278868
+          password: rvU6NBt1Bkp
+          server-dir: /htdocs/

@@ -9,10 +9,12 @@ Copyright: 2023 ©MdRasen
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 @font-face {
   font-family: kawit;
   src: url(../Kawit.ttf);
 }
+
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -31,11 +33,14 @@ Copyright: 2023 ©MdRasen
 
 }
 
-.info-item a span , .timeline-text a , .contact-info-item a{
+.info-item a span,
+.timeline-text a,
+.contact-info-item a {
   text-decoration: underline;
   font-weight: bold;
-  color:var(--text-black-700)
+  color: var(--text-black-700)
 }
+
 body {
   line-height: 1.5;
   font-size: 16px;
@@ -215,7 +220,7 @@ ul {
 }
 
 .aside .logo a span {
-  
+
   font-size: 40px;
 }
 
@@ -443,12 +448,13 @@ h3.my-profession {
 }
 
 @media (max-width: 1000px) {
-  .about .about-content .personal-info .info-item{
+  .about .about-content .personal-info .info-item {
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
-.about .about-content .personal-info .info-item p ,
+
+.about .about-content .personal-info .info-item p,
 .about .about-content .personal-info .info-item a {
   font-weight: 600;
   padding: 10px 0;
@@ -683,12 +689,14 @@ h3.my-profession {
   max-width: 100%;
   margin-bottom: 40px;
 }
-.portfolio-img{
-   display: flex;
-   justify-content: center;
-    align-items: center;
-    height: 100%
-  }
+
+.portfolio-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+
 .portfolio .portfolio-heading h2 {
   color: var(--text-black-900);
   font-weight: 500;
@@ -705,14 +713,13 @@ h3.my-profession {
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
   height: 100%;
 }
 
 .portfolio .portfolio-item-innner .portfolio-img img {
-      max-width: 100%;
+  max-width: 100%;
   display: block;
-    height: 100%;
+  height: 100%;
 }
 
 /* Portfolio End */
@@ -983,3 +990,31 @@ h3.my-profession {
 }
 
 /* Device Responsive End */
+.portfolio .portfolio-item-innner {
+  position: relative;
+}
+
+.portfolio .portfolio-item-link{
+position: absolute;
+top: 100%;
+left:0;
+width: 100%;
+height: 100%;
+background-image: linear-gradient( 0deg , var(--skin-color), transparent);
+opacity: 1;
+transition:0.2s ease-out;
+display: flex;
+align-items:end;
+justify-content: center;
+}
+.portfolio .portfolio-item-link a{
+  padding: 10px;
+  margin: 10px;
+}
+.portfolio .portfolio-item-link i{
+  color: #fff ;
+  font-size: 30px;
+}
+.portfolio .portfolio-item:hover .portfolio-item-link{
+  top:0%;
+}
